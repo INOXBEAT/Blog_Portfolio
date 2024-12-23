@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = $_POST['mensaje'];
 
     // Configura los detalles del correo
-    $to = "lingerieanime@gmail.com";  // Cambia por tu correo
+    $to = "lingerieanime@gmail.com";
     $subject = "Nuevo mensaje desde tu formulario de contacto";
     $body = "Nombre: $nombre\nCorreo: $email\n\nMensaje:\n$mensaje";
     $headers = "From: $email";
